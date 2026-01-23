@@ -1,120 +1,154 @@
-<a href="./volumi/index.html">Indice dei Volumi</a>
-<a href="./volumi/volume-I/index.html">Volume I — Capitoli</a><!doctype html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CORPUS ESOTEROLOGIA ERMETICA</title>
-  <meta name="description" content="Opera editoriale disciplinare unitaria in cinque volumi. Testo chiuso, opponibile e decadibile. Decisione · Costo · Traccia · Tempo." />
-  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CORPUS ESOTEROLOGIA ERMETICA — HUB</title>
+  <meta name="description" content="HUB ufficiale del CORPUS ESOTEROLOGIA ERMETICA. Trilogia primaria: Volume I (Fondativo), Volume II (Applicativo), Volume III (Normativo)." />
   <style>
     :root { color-scheme: dark; }
     body {
-      margin:0;
+      margin: 0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background:#0b0c10;
-      color:#e8e8e8;
+      background: #0b0c10;
+      color: #e8e8e8;
     }
     header, main, footer {
-      max-width: 980px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 22px;
+      padding: 24px;
     }
     .card {
-      background:#0f1117;
-      border:1px solid #24262b;
-      border-radius:18px;
-      padding:20px;
-      margin-bottom:16px;
+      background: #0f1117;
+      border: 1px solid #24262b;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.35);
     }
-    h1 { margin:0 0 10px 0; font-size:32px; }
-    h2 { margin:18px 0 8px 0; font-size:18px; }
-    p { margin:8px 0; line-height:1.6; color:#cfd2d6; }
-    .meta { font-size:13px; color:#9aa2aa; }
-    .rule { border-left:4px solid #d6b8ff; padding-left:14px; margin:14px 0; }
-    .tag {
-      display:inline-block;
-      padding:4px 12px;
-      border:1px solid #24262b;
-      border-radius:999px;
-      font-size:12px;
-      background:#0b0c10;
-      color:#cfd2d6;
-      margin-right:6px;
-      margin-top:6px;
+    h1 { font-size: 30px; margin: 0 0 10px; }
+    h2 { font-size: 18px; font-weight: 600; opacity: .9; margin: 0 0 18px; }
+    h3 { font-size: 16px; margin-top: 0; }
+    p { line-height: 1.55; opacity: .95; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
     }
-    a { color:#d6b8ff; text-decoration:none; }
-    a:hover { text-decoration:underline; }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
     .btn {
-      display:inline-block;
-      padding:10px 14px;
-      border-radius:14px;
-      border:1px solid #24262b;
-      background:#0b0c10;
-      margin:6px 6px 0 0;
+      border: 1px solid #2b2f38;
+      border-radius: 12px;
+      padding: 10px 14px;
+      background: #111420;
+      color: #9bdcff;
+      text-decoration: none;
+      font-size: 14px;
     }
-    ul { margin:8px 0 8px 18px; color:#cfd2d6; }
-    li { margin:6px 0; }
-    .hr { height:1px; background:#24262b; margin:14px 0; }
+    .btn:hover { text-decoration: underline; }
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid #2b2f38;
+      opacity: .85;
+      margin-bottom: 12px;
+    }
+    .muted { opacity: .75; font-size: 13px; }
+    footer { text-align: center; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
   </style>
 </head>
-
 <body>
+
 <header>
   <div class="card">
-    <div class="meta">OPERA EDITORIALE DISCIPLINARE · EDIZIONE 2026</div>
+    <div class="tag">HUB ufficiale</div>
     <h1>CORPUS ESOTEROLOGIA ERMETICA</h1>
-
-    <div class="rule">
-      <p>
-        Opera editoriale disciplinare unitaria in cinque volumi.
-        Testo chiuso. Atto opponibile ed esposto alla decadenza nel tempo.
-      </p>
-      <p class="meta">
-        Griglia disciplinare: <strong>Decisione · Costo · Traccia · Tempo</strong>
-      </p>
-    </div>
-
-    <div>
-      <span class="tag">Chiuso</span>
-      <span class="tag">Opponibile</span>
-      <span class="tag">Decadibile</span>
-      <span class="tag">2026</span>
-    </div>
-
-    <div>
-      <a class="btn" href="./README.md">README</a>
-      <a class="btn" href="./CORPUS_ESOTEROLOGIA_ERMETICA.pdf">PDF canonico</a>
-      <a class="btn" href="https://manuelcoletta1-source.github.io/esoterologia-edizioni-ipr5/">Esoterologia Edizioni</a>
-    </div>
+    <h2>Trilogia primaria · Volume I–III</h2>
+    <p>
+      Questo HUB collega i tre repository ufficiali del Corpus:
+      <b>fondazione</b>, <b>osservazione</b> e <b>normazione</b>.
+      Ogni volume è autonomo nel proprio ruolo e non sovrapposto agli altri.
+    </p>
+    <p class="muted">
+      Sequenza disciplinare: <span class="mono">Volume I → Volume II → Volume III</span>
+    </p>
   </div>
 </header>
 
-<main>
-  <div class="card">
-    <h2>Struttura</h2>
-    <ul>
-      <li><strong>Volume I</strong> — Esoterologia · Scienza dell’Essere (fondativo)</li>
-      <li><strong>Volume II</strong> — Matrix 2026 · Fondamenti operativi</li>
-      <li><strong>Volume III</strong> — Lex Hermeticum · Validità e decadenza</li>
-      <li><strong>Volume IV</strong> — Codice Alieno · Tracciabilità rascensionale</li>
-      <li><strong>Volume V</strong> — Artefatto Alieno · Esito non integrabile</li>
-    </ul>
-    <div class="hr"></div>
-    <p class="meta">
-      Questa pagina espone l’opera come atto editoriale.
-      Le infrastrutture tecniche non fondano il contenuto.
+<main class="grid">
+
+  <section class="card">
+    <div class="tag">Volume I — Fondativo</div>
+    <h3>Esoterologia — Fondamento disciplinare dell’Essere</h3>
+    <p class="muted">
+      Definisce il dominio osservabile, il linguaggio controllato,
+      gli assiomi espliciti e la stabilità fondativa nel tempo.
     </p>
-  </div>
+    <div class="btns">
+      <a class="btn" href="https://manuelcoletta1-source.github.io/corpus-esoterologia-ermetica-volume-1/">Apri sito</a>
+      <a class="btn" href="https://github.com/manuelcoletta1-source/corpus-esoterologia-ermetica-volume-1">Apri repo</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="tag">Volume II — Applicativo</div>
+    <h3>Matrix 2026 — Osservazione dei sistemi decisionali</h3>
+    <p class="muted">
+      Applica Tempo·Traccia·Costo ai sistemi reali ad alto rischio,
+      descrivendo pattern di fallimento senza prescrizione normativa.
+    </p>
+    <div class="btns">
+      <a class="btn" href="https://manuelcoletta1-source.github.io/corpus-esoterologia-ermetica-volume-2/">Apri sito</a>
+      <a class="btn" href="https://github.com/manuelcoletta1-source/corpus-esoterologia-ermetica-volume-2">Apri repo</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="tag">Volume III — Normativo</div>
+    <h3>Lex Hermeticum — Strato normativo tecnico</h3>
+    <p class="muted">
+      Formalizza validità, idoneità, decadenza/blocco,
+      livelli di conformità e condizioni di adozione istituzionale.
+    </p>
+    <div class="btns">
+      <a class="btn" href="https://manuelcoletta1-source.github.io/lex-hermeticum-volume-3/">Apri sito</a>
+      <a class="btn" href="https://github.com/manuelcoletta1-source/lex-hermeticum-volume-3">Apri repo</a>
+    </div>
+  </section>
+
+  <aside class="card">
+    <div class="tag">Sigillo editoriale</div>
+    <h3>Esoterologia Edizioni</h3>
+    <p class="muted">
+      CORPUS ESOTEROLOGIA ERMETICA · Trilogia primaria (Vol. I–III)
+    </p>
+    <p class="muted">
+      Autore: Manuel Coletta
+    </p>
+    <div class="btns">
+      <a class="btn" href="./README.md">Leggi README HUB</a>
+    </div>
+  </aside>
+
 </main>
 
 <footer>
-  <div class="card">
-    <p class="meta">
-      © 2026 — Manuel Coletta · ESOTEROLOGIA — Edizioni · Torino (TO), Italia
-    </p>
-  </div>
+  <p class="muted">
+    © Manuel Coletta<br/>
+    <b>Esoterologia Edizioni</b><br/>
+    CORPUS ESOTEROLOGIA ERMETICA · HUB
+  </p>
 </footer>
+
 </body>
 </html>
-<a href="./volumi/index.html">Indice dei Volumi</a>
